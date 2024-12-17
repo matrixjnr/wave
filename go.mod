@@ -1,4 +1,4 @@
-module wave-protocol
+module github.com/matrixjnr/wave
 
 go 1.22
 

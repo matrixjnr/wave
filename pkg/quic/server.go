@@ -3,9 +3,9 @@ package quic
 import (
 	"context"
 	"crypto/tls"
+	"github.com/matrixjnr/wave/internal/channels"
+	"github.com/matrixjnr/wave/internal/routing"
 	"log"
-	"wave-protocol/internal/channels"
-	"wave-protocol/internal/routing"
 
 	"github.com/quic-go/quic-go"
 )

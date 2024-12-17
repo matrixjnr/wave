@@ -6,9 +6,9 @@ import (
 
 	"github.com/matrixjnr/wave-message/internal/service"
 	"github.com/matrixjnr/wave-message/pkg/message"
+	"github.com/matrixjnr/wave/internal/routing"
+	"github.com/matrixjnr/wave/pkg/modulation"
 	"github.com/quic-go/quic-go"
-	"wave-protocol/internal/routing"
-	"wave-protocol/pkg/modulation"
 )
 
 // Channel represents a communication channel

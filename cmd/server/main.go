@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/matrixjnr/wave/internal/channels"
+	"github.com/matrixjnr/wave/internal/routing"
+	"github.com/matrixjnr/wave/pkg/quic"
 	"log"
-	"wave-protocol/internal/channels"
-	"wave-protocol/internal/routing"
-	"wave-protocol/pkg/quic"
 )
 
 func main() {
